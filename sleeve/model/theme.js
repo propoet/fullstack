@@ -1,8 +1,9 @@
 import {config} from "../config/config";
+import {Http} from "../utils/http";
 
 class Theme {
     static getHomeLocationA(callback){
-        wx.request({
+       /* wx.request({
             url: `${config.apiBaseUrl}theme/by/names`,
             method: 'GET',
             data: {
@@ -14,7 +15,18 @@ class Theme {
             success: (res) => {
                 callback(res.data)
             }
-        })
+        })*/
+
+       Http.request({
+           url:'theme/by/names',
+           data:{
+               names: 't-1'
+           },
+           callback:data=>{
+               callback(data)
+           }
+
+       })
     }
 }
 export {
