@@ -1,0 +1,2 @@
+locationA E F H
+getThemes
