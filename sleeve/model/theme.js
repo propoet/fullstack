@@ -28,6 +28,14 @@ class Theme {
         return this.themes.find(t => t.name === 't-2')
 
     }
+    static async getHomeLocationESpu(){
+        return Theme.getThemeSpuByName(Theme.locationE)
+    }
+    static async getThemeSpuByName(name){
+        return Http.request({
+            url:`theme/name/${name}/with_spu`
+        })
+    }
 }
 
 export {

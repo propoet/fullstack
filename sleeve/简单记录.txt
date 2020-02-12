@@ -1,2 +1,3 @@
-locationA E F H
-getThemes
+getThemeSpuByName
+getHomeLocationESpu
+themeESpuList
