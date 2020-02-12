@@ -21,11 +21,11 @@ class Theme {
     }
 
     async getHomeLocationA() {
-        return this.themes.find(t => t.name === 't-1')
+        return this.themes.find(t => t.name === Theme.locationA)
 
     }
     async getHomeLocationE() {
-        return this.themes.find(t => t.name === 't-2')
+        return this.themes.find(t => t.name === Theme.locationE)
 
     }
     static async getHomeLocationESpu(){

@@ -15,3 +15,7 @@
 <s-category-grid class="grid" grid="{{grid}}"></s-category-grid>
 <image class="activity-img" src="{{activityD.entrance_img}}"></image>
 
+<s-spu-scroll
+        theme="{{themeE}}"
+        spu-list = "{{themeESpu}}"
+></s-spu-scroll>
