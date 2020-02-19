@@ -1,9 +1,7 @@
-class= 'quality'
+spu-bottom  mt 20  flex column  align-items center
+class= 'title-spu-bottom'
+width  690rpx
+height 70rpx
+margin-bottom 38rpx
 
-
-
-getHomeLocationF
-themeF
-
-880rpx
 
