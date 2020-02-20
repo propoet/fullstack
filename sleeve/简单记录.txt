@@ -1,7 +1,6 @@
-spu-bottom  mt 20  flex column  align-items center
-class= 'title-spu-bottom'
-width  690rpx
-height 70rpx
-margin-bottom 38rpx
+写代码原则：提前return，少用else，思维减负
+
+actualGetData
+
 
 

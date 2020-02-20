@@ -33,4 +33,6 @@
         <image class="title-spu-bottom" src="/imgs/home/title@interest.png"></image>
     </view>
 
+    <s-water-flow  generic:l-water-flow-item=""></s-water-flow>
+
 </view>
