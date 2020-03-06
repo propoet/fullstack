@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
     <!--    windows下路径, D:\downloads\xxx.jar-->
-    <classPathEntry location="E:\project\20200303\fullstack\mall\mysql-connector-java-5.1.6.jar" />
+    <classPathEntry location="G:\fullstack\mall\mysql-connector-java-5.1.6.jar" />
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
 
@@ -47,7 +47,8 @@
                     <columnOverride column="detail" jdbcType="VARCHAR" />
                     <columnOverride column="sub_images" jdbcType="VARCHAR" />
                 </table>-->
-        <table tableName="mall_shipping" domainObjectName="Shipping" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
+<!--        <table tableName="mall_shipping" domainObjectName="Shipping" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>-->
+        <table tableName="mall_pay_info" domainObjectName="PayInfo" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
 
     </context>
 </generatorConfiguration>
