@@ -97,7 +97,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.imooc.mall.pojo.PayInfo">
+  <update id="updateByPrimaryKeySelective" parameterType="com.imooc.pay.pojo.PayInfo">
     update mall_pay_info
     <set>
       <if test="userId != null">
@@ -127,7 +127,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.imooc.mall.pojo.PayInfo">
+  <update id="updateByPrimaryKey" parameterType="com.imooc.pay.pojo.PayInfo">
     update mall_pay_info
     set user_id = #{userId,jdbcType=INTEGER},
       order_no = #{orderNo,jdbcType=BIGINT},

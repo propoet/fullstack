@@ -25,10 +25,9 @@ public class PayInfo {
 
     private Date updateTime;
 
-    public PayInfo(Long orderNo, Integer payPlatform, String platformNumber, String platformStatus, BigDecimal payAmount) {
+    public PayInfo(Long orderNo, Integer payPlatform, String platformStatus, BigDecimal payAmount) {
         this.orderNo = orderNo;
         this.payPlatform = payPlatform;
-        this.platformNumber = platformNumber;
         this.platformStatus = platformStatus;
         this.payAmount = payAmount;
     }
