@@ -1,5 +1,3 @@
-// pages/home/home.js
-import {config} from "../../config/config";
 import {Theme} from "../../model/theme";
 import {Banner} from "../../model/banner";
 import {Category} from "../../model/category";
@@ -7,7 +5,6 @@ import {Activity} from "../../model/activity";
 import {SpuPaging} from "../../model/spu-paging";
 
 Page({
-
     /**
      * 页面的初始数据
      */
