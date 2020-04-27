@@ -3,4 +3,14 @@
 actualGetData
 
 
+npm install 出现UNABLE_TO_VERIFY_LEAF_SIGNATURE的解决办法
+关掉strict-ssl即可，
+如下：npm config set strict-ssl false
+用完之后恢复：
+npm config set strict-ssl true
+
+另外从淘宝镜像还原为官方镜像用如下方法
+npm config set registry https://registry.npmjs.org
+
+
 
